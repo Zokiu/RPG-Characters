@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.hero {
+  margin: 15px 10px;
+  background: #f8edeb;
+  border: 1px solid black;
+}
+.hero:hover {
+  background: #fae1dd;
+}
+.charCreation {
+  background: #e8e8e4;
+  padding: 50px;
+  border: 0.7px solid black;
+  margin: 45px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.charCreation:hover {
+  background: #d8e2dc;
+}
+.charCreation label {
+  margin: 5px auto;
+}
